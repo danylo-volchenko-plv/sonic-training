@@ -2,3 +2,4 @@
 
 int fn3(void);
 
+int fn4(void);

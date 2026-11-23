@@ -6,3 +6,7 @@ int fn3(void)
 	return 76;
 }
 
+int fn4(void)
+{
+	return 24;
+}
