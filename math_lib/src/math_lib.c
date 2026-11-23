@@ -7,3 +7,7 @@ int fn1(void)
 	return 67;
 }
 
+int fn2(void)
+{
+	return 42;
+}
