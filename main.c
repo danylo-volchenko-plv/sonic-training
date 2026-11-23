@@ -3,5 +3,6 @@
 
 int main(void)
 {
+	printf("another print\n");
 	return 67;
 }
