@@ -35,7 +35,7 @@ else
 	override CCFLAGS += $(DFLAGS)
 endif
 
-.DEFAULT_GOAL ?= build
+.DEFAULT_GOAL := build
 include rule.mk
 
 ifneq ($(strip $(STATIC_LIBS)),)
@@ -55,7 +55,7 @@ endif
 	@echo "[build complete] profile: $(PROFILE)"
 
 banner:
-	@echo "building $(PROFILE) profile"
+	@echo "[building $(PROFILE) profile]"
 
 
 .PHONY: all
